@@ -23,6 +23,6 @@ else
   x1 = (b + Math.sqrt(d)) / (2 * a).to_f
   x2 = (b - Math.sqrt(d)) / (2 * a).to_f
   puts "Дискриминант: #{d}"
-  puts "X1 = #{x1}"
-  puts "X2 = #{x2}"
+  puts "X1 = #{x1.round}"
+  puts "X2 = #{x2.round}"
 end
