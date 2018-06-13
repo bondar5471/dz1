@@ -1,6 +1,6 @@
 def right_triangle?(a, b, c)
-  [a, b, c].sort.reverse
-  a[0]**2 == a[1]**2 + a[2]**2
+  array =  [a, b, c].sort.reverse
+  array[0]**2 == array[1]**2 + array[2]**2
 end
 
 def isosceles_triangle?(a, b, c)
